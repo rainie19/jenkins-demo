@@ -9,7 +9,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: 8.129.97.122
   client:
     #    表示是否将自己注册到 Eureka Server
     register-with-eureka: false
