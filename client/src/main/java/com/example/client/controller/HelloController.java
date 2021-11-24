@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String HelloWorld() {
+        int x = 1/0;
         return "hello world11";
     }
 }
